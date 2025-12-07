@@ -55,4 +55,15 @@ DevAssistant is a modern, open-source, self-hostable AI-powered coding assistant
 ---
 
 ## 📂 Project Structure
-
+devassistant-final/
+│── public/
+│── src/
+│ ├── components/
+│ ├── pages/
+│ ├── routes/
+│ ├── styles/
+│ └── utils/
+│── index.html
+│── package.json
+│── vite.config.js
+│── README.md
