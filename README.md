@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+# 🚀 DevAssistant – Open Source Self-Hostable AI Coding Assistant with Integrated Learning Platform
 
-## Project info
+DevAssistant is a modern, open-source, self-hostable AI-powered coding assistant designed to help developers learn and code more effectively. It combines a powerful AI coding assistant with an integrated learning platform that teaches programming concepts through lessons, examples, and interactive modules — ensuring users truly understand code instead of blindly copy-pasting.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🌟 Key Features
 
-There are several ways of editing your application.
+### 🔹 1. AI Coding Assistant  
+- Understands the user’s code in real-time  
+- Provides suggestions, fixes, and debugging help  
+- Explains logic behind algorithms and code snippets  
+- Identifies when the user is confused and guides them
 
-**Use Lovable**
+### 🔹 2. Integrated Learning Platform  
+- Covers essential programming concepts like loops, arrays, recursion, patterns, DS & Algorithms  
+- Interactive examples to “learn by doing”  
+- Topic-based explanations and structured lessons  
+- Quizzes and practice tasks to check understanding  
+- Clean, intuitive UI inspired by VS Code + Duolingo learning style
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### 🔹 3. Anti Copy-Paste Learning Guard  
+- Detects when a user pastes external code  
+- Warns them before continuing  
+- Redirects to the correct learning module  
+- Encourages real understanding instead of shortcuts  
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🔹 4. Fully Self-Hostable  
+- Run it on your own laptop or server  
+- No dependency on cloud-based platforms  
+- Privacy-first design  
+- Easy setup using Vite + React + Shadcn UI
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧩 Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Frontend:**  
+- React  
+- Vite  
+- TypeScript  
+- TailwindCSS  
+- Shadcn UI Components  
 
-Follow these steps:
+**Backend / AI Layer (Optional Future Integration):**  
+- Node.js / Express  
+- OpenAI or Local LLMs (self-hosted models)  
+- WebSocket for real-time assistance  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+**Other Tools:**  
+- Git, GitHub  
+- ESLint  
+- Bun / npm  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📂 Project Structure
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
